@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Player } from 'video-react';
 import './App.css';
 import video_0 from './assets/ntf/videos/01 jump out of bikini.mp4';
-import img_0 from './assets/ntf/videos/01 jump out of bikini.mp4.png';
-
 
 export default class TODO extends Component {
   constructor(props) {
@@ -32,7 +30,7 @@ export default class TODO extends Component {
       <div>
         <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
           <div style={{padding: '1vh'}}>
-            <Player ref="player" fluid={false} width={350}={false} height={700}>
+            <Player ref="player" fluid={false} width={350}>
               <source src={this.state.video} />
             </Player>
         </div>
@@ -42,7 +40,7 @@ export default class TODO extends Component {
         </div>
         )}
       </div>
-        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
         TODO
       </div>
     </div>
