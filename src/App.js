@@ -19,31 +19,31 @@ export default class App extends Component {
     return (
       <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', padding: 20}}>
         <div onClick={() => this.setState({person: 'hide'})} style={{paddingBottom: 10}}>
-          <button class="pure-button pure-button-primary">Hide</button>
+          <button className="pure-button pure-button-primary">Hide</button>
         </div>
         <div onClick={() => this.setState({person: 'Cherub'})} style={{paddingBottom: 10}}>
-          <button class="pure-button pure-button-primary">Cherub</button>
+          <button className="pure-button pure-button-primary">Cherub</button>
         </div>
         <div onClick={() => this.setState({person: 'NTF'})} style={{paddingBottom: 10}}>
-            <button class="pure-button pure-button-primary">NTF</button>
+            <button className="pure-button pure-button-primary">NTF</button>
         </div>
         <div onClick={() => this.setState({person: 'SM'})} style={{paddingBottom: 10}}>
-            <button class="pure-button pure-button-primary">SM</button>
+            <button className="pure-button pure-button-primary">SM</button>
         </div>
         <div onClick={() => this.setState({person: 'various'})} style={{paddingBottom: 10}}>
-            <button class="pure-button pure-button-primary">Var</button>
+            <button className="pure-button pure-button-primary">Var</button>
         </div>
         <div onClick={() => this.setState({person: 'CK'})} style={{paddingBottom: 10}}>
-            <button class="pure-button pure-button-primary">CK</button>
+            <button className="pure-button pure-button-primary">CK</button>
         </div>
         <div onClick={() => this.setState({person: 'hope'})} style={{paddingBottom: 10}}>
-            <button class="pure-button pure-button-primary">Hope</button>
+            <button className="pure-button pure-button-primary">Hope</button>
         </div>
         <a href="https://smerdatus.com/sd" style={{paddingBottom: 10}}>
-            <button class="pure-button pure-button-primary">SD</button>
+            <button className="pure-button pure-button-primary">SD</button>
         </a>
         <a href="https://smerdatus.com/l" style={{paddingBottom: 10}}>
-            <button class="pure-button pure-button-primary">L</button>
+            <button className="pure-button pure-button-primary">L</button>
         </a>
       </div>
       );

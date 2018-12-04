@@ -82,13 +82,13 @@ export default class Cherub extends Component {
       <div>
         <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
           <div style={{padding: '1vh'}}>
-            <Player ref="player" fluid={false} height={700}>
+           <Player ref="player" fluid={false} width={350}>
               <source src={this.state.video} />
             </Player>
         </div>
         {this.state.oldY === 0 ? '' : (
           <div padding={{padding: '2vh'}} onClick={() => this.scrollBackDown()} >
-            <button class="pure-button pure-button-primary">Return to previous position</button>
+            <button className="pure-button pure-button-primary">Return to previous position</button>
         </div>
         )}
       </div>
@@ -174,22 +174,22 @@ export default class Cherub extends Component {
        </div>
        <div id="images">
         <div style={{paddingBottom: 50}}>
-          <blockquote class="imgur-embed-pub" lang="en" data-id="a/Lt5X3vO" data-context="false"><a href="//imgur.com/a/Lt5X3vO">che1</a></blockquote>
+          <blockquote className="imgur-embed-pub" lang="en" data-id="a/Lt5X3vO" data-context="false"><a href="//imgur.com/a/Lt5X3vO">che1</a></blockquote>
         </div>
         <div style={{paddingBottom: 50}}>
-          <blockquote class="imgur-embed-pub" lang="en" data-id="a/ECB2n8M" data-context="false"><a href="//imgur.com/a/ECB2n8M">che2</a></blockquote>
+          <blockquote className="imgur-embed-pub" lang="en" data-id="a/ECB2n8M" data-context="false"><a href="//imgur.com/a/ECB2n8M">che2</a></blockquote>
         </div>
         <div style={{paddingBottom: 50}}>
-          <blockquote class="imgur-embed-pub" lang="en" data-id="a/FAyhtYj" data-context="false"><a href="//imgur.com/a/FAyhtYj">che3</a></blockquote>
+          <blockquote className="imgur-embed-pub" lang="en" data-id="a/FAyhtYj" data-context="false"><a href="//imgur.com/a/FAyhtYj">che3</a></blockquote>
         </div>
         <div style={{paddingBottom: 50}}>
-          <blockquote class="imgur-embed-pub" lang="en" data-id="a/jNSCXqV" data-context="false"><a href="//imgur.com/a/jNSCXqV">che4</a></blockquote>
+          <blockquote className="imgur-embed-pub" lang="en" data-id="a/jNSCXqV" data-context="false"><a href="//imgur.com/a/jNSCXqV">che4</a></blockquote>
         </div>
         <div style={{paddingBottom: 50}}>
-          <blockquote class="imgur-embed-pub" lang="en" data-id="a/pr168Pl" data-context="false"><a href="//imgur.com/a/pr168Pl">che5</a></blockquote>
+          <blockquote className="imgur-embed-pub" lang="en" data-id="a/pr168Pl" data-context="false"><a href="//imgur.com/a/pr168Pl">che5</a></blockquote>
         </div>
         <div style={{paddingBottom: 50}}>
-          <blockquote class="imgur-embed-pub" lang="en" data-id="a/aBVNHw2" data-context="false"><a href="//imgur.com/a/aBVNHw2">che6</a></blockquote>
+          <blockquote className="imgur-embed-pub" lang="en" data-id="a/aBVNHw2" data-context="false"><a href="//imgur.com/a/aBVNHw2">che6</a></blockquote>
         </div>
     </div>
     </div>
