@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NTF from './NTF';
 import Cherub from './Cherub';
 import SM from './SM';
+import Various from './Various';
 import './App.css';
 
 export default class App extends Component {
@@ -27,6 +28,15 @@ export default class App extends Component {
         <div onClick={() => this.setState({person: 'SM'})} >
             <button class="pure-button pure-button-primary">SM</button>
         </div>
+        <div onClick={() => this.setState({person: 'various'})} >
+            <button class="pure-button pure-button-primary">Var</button>
+        </div>
+        <a href="https://smerdatus.com/sd">
+            <button class="pure-button pure-button-primary">SD</button>
+        </a>
+        <a href="https://smerdatus.com/l">
+            <button class="pure-button pure-button-primary">L</button>
+        </a>
       </div>
       );
   }
@@ -59,6 +69,13 @@ export default class App extends Component {
         <div>
           {this.renderButtons()}
           <SM />
+        </div>
+      );
+    } else if (this.state.person === 'various') {
+      return (
+        <div>
+          {this.renderButtons()}
+          <Various />
         </div>
       );
     } else {
