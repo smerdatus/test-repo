@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import NTF from './NTF';
 import Cherub from './Cherub';
 import SM from './SM';
+import CK from './CK';
+import Hope from './Hope';
 import Various from './Various';
 import './App.css';
 
@@ -15,26 +17,32 @@ export default class App extends Component {
 
   renderButtons = () => {
     return (
-      <div style={{display: 'flex', justifyContent: 'space-around', padding: 30}}>
-        <div onClick={() => this.setState({person: 'hide'})} >
+      <div style={{display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', padding: 20}}>
+        <div onClick={() => this.setState({person: 'hide'})} style={{paddingBottom: 10}}>
           <button class="pure-button pure-button-primary">Hide</button>
         </div>
-        <div onClick={() => this.setState({person: 'Cherub'})} >
+        <div onClick={() => this.setState({person: 'Cherub'})} style={{paddingBottom: 10}}>
           <button class="pure-button pure-button-primary">Cherub</button>
         </div>
-        <div onClick={() => this.setState({person: 'NTF'})} >
+        <div onClick={() => this.setState({person: 'NTF'})} style={{paddingBottom: 10}}>
             <button class="pure-button pure-button-primary">NTF</button>
         </div>
-        <div onClick={() => this.setState({person: 'SM'})} >
+        <div onClick={() => this.setState({person: 'SM'})} style={{paddingBottom: 10}}>
             <button class="pure-button pure-button-primary">SM</button>
         </div>
-        <div onClick={() => this.setState({person: 'various'})} >
+        <div onClick={() => this.setState({person: 'various'})} style={{paddingBottom: 10}}>
             <button class="pure-button pure-button-primary">Var</button>
         </div>
-        <a href="https://smerdatus.com/sd">
+        <div onClick={() => this.setState({person: 'CK'})} style={{paddingBottom: 10}}>
+            <button class="pure-button pure-button-primary">CK</button>
+        </div>
+        <div onClick={() => this.setState({person: 'hope'})} style={{paddingBottom: 10}}>
+            <button class="pure-button pure-button-primary">Hope</button>
+        </div>
+        <a href="https://smerdatus.com/sd" style={{paddingBottom: 10}}>
             <button class="pure-button pure-button-primary">SD</button>
         </a>
-        <a href="https://smerdatus.com/l">
+        <a href="https://smerdatus.com/l" style={{paddingBottom: 10}}>
             <button class="pure-button pure-button-primary">L</button>
         </a>
       </div>
@@ -69,6 +77,20 @@ export default class App extends Component {
         <div>
           {this.renderButtons()}
           <SM />
+        </div>
+      );
+    } else if (this.state.person === 'CK') {
+      return (
+        <div>
+          {this.renderButtons()}
+          <CK />
+        </div>
+      );
+    } else if (this.state.person === 'hope') {
+      return (
+        <div>
+          {this.renderButtons()}
+          <Hope />
         </div>
       );
     } else if (this.state.person === 'various') {
