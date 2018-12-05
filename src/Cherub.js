@@ -82,7 +82,7 @@ export default class Cherub extends Component {
       <div>
         <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
           <div style={{padding: '1vh'}}>
-           <Player ref="player" fluid={false} width={350}>
+           <Player ref="player" loop fluid={false} width={350}>
               <source src={this.state.video} />
             </Player>
         </div>
