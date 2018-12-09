@@ -39,8 +39,11 @@ export default class App extends Component {
         <div onClick={() => this.setState({person: 'hope'})} style={{paddingBottom: 10}}>
             <button className="pure-button pure-button-primary">Hope</button>
         </div>
-        <a href="https://smerdatus.com/sd" style={{paddingBottom: 10}}>
-            <button className="pure-button pure-button-primary">SD</button>
+        <a href="https://smerdatus.com/so" style={{paddingBottom: 10}}>
+            <button className="pure-button pure-button-primary">So</button>
+        </a>
+        <a href="https://smerdatus.com/ig" style={{paddingBottom: 10}}>
+            <button className="pure-button pure-button-primary">ig</button>
         </a>
         <a href="https://smerdatus.com/l" style={{paddingBottom: 10}}>
             <button className="pure-button pure-button-primary">L</button>
