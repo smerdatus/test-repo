@@ -1,24 +1,70 @@
 import React, { Component } from 'react';
 import { Player } from 'video-react';
 import './App.css';
-import video_1 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_15_896.mp4';
-import img_1 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_15_896.mp4.png';
-import video_2 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_7_814.mp4';
-import img_2 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_7_814.mp4.png';
-import video_3 from './assets/sm/videos/sm4.webm';
-import img_3 from './assets/sm/videos/sm4.webm.png';
-import video_4 from './assets/sm/videos/sm5.webm';
-import img_4 from './assets/sm/videos/sm5.webm.png';
-import img_5 from './assets/sm/images/july-19-2018.jpg';
-import img_6 from './assets/sm/images/sm.jpg';
-import img_7 from './assets/sm/images/sm2.jpg';
-import img_8 from './assets/sm/images/sm3.jpg';
-import img_9 from './assets/sm/images/sophiemudd_22_6_2018_1_29_29_116.jpg';
-import img_10 from './assets/sm/images/sophiemudd_22_6_2018_1_29_36_383.jpg';
-import img_11 from './assets/sm/images/sophiemudd_22_6_2018_1_29_44_689.jpg';
-import img_12 from './assets/sm/images/sophiemudd_22_6_2018_1_29_47_66.jpg';
-import img_13 from './assets/sm/images/flowers.png';
-import img_14 from './assets/sm/images/JQxtJfb.gif';
+import video_0 from './assets/sm/videos/10.mp4';
+import img_0 from './assets/sm/videos/10.mp4.png';
+import video_1 from './assets/sm/videos/11.mp4';
+import img_1 from './assets/sm/videos/11.mp4.png';
+import video_2 from './assets/sm/videos/12.mp4';
+import img_2 from './assets/sm/videos/12.mp4.png';
+import video_3 from './assets/sm/videos/13.mp4';
+import img_3 from './assets/sm/videos/13.mp4.png';
+import video_4 from './assets/sm/videos/14.mp4';
+import img_4 from './assets/sm/videos/14.mp4.png';
+import video_5 from './assets/sm/videos/15.mp4';
+import img_5 from './assets/sm/videos/15.mp4.png';
+import video_6 from './assets/sm/videos/16.mp4';
+import img_6 from './assets/sm/videos/16.mp4.png';
+import video_7 from './assets/sm/videos/17.mp4';
+import img_7 from './assets/sm/videos/17.mp4.png';
+import video_8 from './assets/sm/videos/18.mp4';
+import img_8 from './assets/sm/videos/18.mp4.png';
+import video_9 from './assets/sm/videos/19.mp4';
+import img_9 from './assets/sm/videos/19.mp4.png';
+import video_10 from './assets/sm/videos/2.mp4';
+import img_10 from './assets/sm/videos/2.mp4.png';
+import video_11 from './assets/sm/videos/20.mp4';
+import img_11 from './assets/sm/videos/20.mp4.png';
+import video_12 from './assets/sm/videos/21.mp4';
+import img_12 from './assets/sm/videos/21.mp4.png';
+import video_13 from './assets/sm/videos/22.mp4';
+import img_13 from './assets/sm/videos/22.mp4.png';
+import video_14 from './assets/sm/videos/3.mp4';
+import img_14 from './assets/sm/videos/3.mp4.png';
+import video_15 from './assets/sm/videos/4.mp4';
+import img_15 from './assets/sm/videos/4.mp4.png';
+import video_16 from './assets/sm/videos/5.mp4';
+import img_16 from './assets/sm/videos/5.mp4.png';
+import video_17 from './assets/sm/videos/6.mp4';
+import img_17 from './assets/sm/videos/6.mp4.png';
+import video_18 from './assets/sm/videos/7.mp4';
+import img_18 from './assets/sm/videos/7.mp4.png';
+import video_19 from './assets/sm/videos/8.mp4';
+import img_19 from './assets/sm/videos/8.mp4.png';
+import video_20 from './assets/sm/videos/9.mp4';
+import img_20 from './assets/sm/videos/9.mp4.png';
+import video_21 from './assets/sm/videos/sm4.mp4';
+import img_21 from './assets/sm/videos/sm4.mp4.png';
+import video_22 from './assets/sm/videos/sm5.mp4';
+import img_22 from './assets/sm/videos/sm5.mp4.png';
+import video_23 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_15_896.mp4';
+import img_23 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_15_896.mp4.png';
+import video_24 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_7_814.mp4';
+import img_24 from './assets/sm/videos/sophiemudd_22_6_2018_1_29_7_814.mp4.png';
+import img_25 from './assets/sm/images/july-19-2018.jpg';
+import img_26 from './assets/sm/images/sm.jpg';
+import img_27 from './assets/sm/images/sm2.jpg';
+import img_28 from './assets/sm/images/sm3.jpg';
+import img_29 from './assets/sm/images/sophiemudd_22_6_2018_1_29_29_116.jpg';
+import img_30 from './assets/sm/images/sophiemudd_22_6_2018_1_29_36_383.jpg';
+import img_31 from './assets/sm/images/sophiemudd_22_6_2018_1_29_44_689.jpg';
+import img_32 from './assets/sm/images/sophiemudd_22_6_2018_1_29_47_66.jpg';
+import img_33 from './assets/sm/images/flowers.png';
+import img_34 from './assets/sm/images/JQxtJfb.gif';
+import img_35 from './assets/sm/images/0.jpg';
+import img_36 from './assets/sm/images/00.jpg';
+import img_37 from './assets/sm/images/000.jpg';
+import img_38 from './assets/sm/images/0000.jpg';
 
 export default class SM extends Component {
   constructor(props) {
@@ -58,8 +104,8 @@ export default class SM extends Component {
         )}
       </div>
         <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_3})}>
-            <img src={img_3} style={{height: '20vh'}} />
+        <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_0})}>
+            <img src={img_0} style={{height: '20vh'}} />
           </div>
           <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_1})}>
             <img src={img_1} style={{height: '20vh'}} />
@@ -67,38 +113,113 @@ export default class SM extends Component {
           <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_2})}>
             <img src={img_2} style={{height: '20vh'}} />
           </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_3})}>
+            <img src={img_3} style={{height: '20vh'}} />
+          </div>
           <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_4})}>
             <img src={img_4} style={{height: '20vh'}} />
           </div>
-          <div style={{padding: '1vh' }}>
-            <img src={img_14} style={{height: '80vh'}} />
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_5})}>
+            <img src={img_5} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_6})}>
+            <img src={img_6} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_7})}>
+            <img src={img_7} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_8})}>
+            <img src={img_8} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_9})}>
+            <img src={img_9} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_10})}>
+            <img src={img_10} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_11})}>
+            <img src={img_11} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_12})}>
+            <img src={img_12} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_13})}>
+            <img src={img_13} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_14})}>
+            <img src={img_14} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_15})}>
+            <img src={img_15} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_16})}>
+            <img src={img_16} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_17})}>
+            <img src={img_17} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_18})}>
+            <img src={img_18} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_19})}>
+            <img src={img_19} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_20})}>
+            <img src={img_20} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_21})}>
+            <img src={img_21} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_22})}>
+            <img src={img_22} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_23})}>
+            <img src={img_23} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_24})}>
+            <img src={img_24} style={{height: '20vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_5} style={{height: '80vh'}} />
+            <img src={img_25} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_6} style={{height: '80vh'}} />
+            <img src={img_26} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_7} style={{height: '80vh'}} />
+            <img src={img_27} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_8} style={{height: '80vh'}} />
+            <img src={img_28} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_9} style={{height: '80vh'}} />
+            <img src={img_29} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_10} style={{height: '80vh'}} />
+            <img src={img_30} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_11} style={{height: '80vh'}} />
+            <img src={img_31} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_12} style={{height: '80vh'}} />
+            <img src={img_32} style={{height: '80vh'}} />
           </div>
           <div style={{padding: '1vh' }}>
-            <img src={img_13} style={{height: '80vh'}} />
+            <img src={img_33} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_34} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_35} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_36} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_37} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_38} style={{height: '80vh'}} />
           </div>
       </div>
     </div>
