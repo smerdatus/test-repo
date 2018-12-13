@@ -65,6 +65,26 @@ import img_35 from './assets/sm/images/0.jpg';
 import img_36 from './assets/sm/images/00.jpg';
 import img_37 from './assets/sm/images/000.jpg';
 import img_38 from './assets/sm/images/0000.jpg';
+import img_sophiemudd_0 from './assets/sm/images/sophiemudd_28435975_201089373991509_5145899462362660864_n.jpg';
+import img_sophiemudd_1 from './assets/sm/images/sophiemudd_29716516_1971031269881049_5555671816648785920_n.jpg';
+import img_sophiemudd_2 from './assets/sm/images/sophiemudd_35617482_258186048291577_5286594610930384896_n.jpg';
+import img_sophiemudd_3 from './assets/sm/images/sophiemudd_36039293_534902310245744_5078556376616140800_n.jpg';
+import img_sophiemudd_4 from './assets/sm/images/sophiemudd_36085181_411969452650988_2842422658006515712_n.jpg';
+import img_sophiemudd_5 from './assets/sm/images/sophiemudd_36160135_191465511524668_2825511997372628992_n.jpg';
+import img_sophiemudd_6 from './assets/sm/images/sophiemudd_36569202_282182549217118_6566539932230221824_n.jpg';
+import img_sophiemudd_7 from './assets/sm/images/sophiemudd_36828258_247138699414896_75260149287092224_n.jpg';
+import img_sophiemudd_8 from './assets/sm/images/sophiemudd_37707493_377391306123845_2682637243096498176_n.jpg';
+import img_sophiemudd_9 from './assets/sm/images/sophiemudd_38291803_214251422586136_5286130836066795520_n.jpg';
+import img_sophiemudd_10 from './assets/sm/images/sophiemudd_39902781_1898328150246265_4059503788535316480_n.jpg';
+import img_sophiemudd_11 from './assets/sm/images/sophiemudd_40308458_301568963965378_1117984089790601018_n.jpg';
+import img_sophiemudd_12 from './assets/sm/images/sophiemudd_40583242_2178776675676805_6915212199142317802_n.jpg';
+import img_sophiemudd_13 from './assets/sm/images/sophiemudd_41046772_488092628336414_8121580844574687978_n.jpg';
+import img_sophiemudd_14 from './assets/sm/images/sophiemudd_41355647_1675494305910339_5608229503748831487_n.jpg';
+import img_sophiemudd_15 from './assets/sm/images/sophiemudd_41658618_1885838294818738_5498712812368863069_n.jpg';
+import img_sophiemudd_16 from './assets/sm/images/sophiemudd_42869654_355246145243694_3591634476505718764_n.jpg';
+import img_sophiemudd_17 from './assets/sm/images/sophiemudd_42929272_318481355610382_6259426560999966218_n.jpg';
+import img_sophiemudd_18 from './assets/sm/images/sophiemudd_44850380_1928101137484767_3037853886444061259_n.jpg';
+
 
 export default class SM extends Component {
   constructor(props) {
@@ -103,6 +123,9 @@ export default class SM extends Component {
         </div>
         )}
       </div>
+      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+        <a href='https://instagram.com/sophiemudd' target='_blank'>sophiemudd</a>
+    </div>
         <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
         <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_0})}>
             <img src={img_0} style={{height: '20vh'}} />
@@ -221,6 +244,63 @@ export default class SM extends Component {
           <div style={{padding: '1vh' }}>
             <img src={img_38} style={{height: '80vh'}} />
           </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_0})}>
+        <img src={img_sophiemudd_0} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_1})}>
+        <img src={img_sophiemudd_1} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_2})}>
+        <img src={img_sophiemudd_2} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_3})}>
+        <img src={img_sophiemudd_3} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_4})}>
+        <img src={img_sophiemudd_4} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_5})}>
+        <img src={img_sophiemudd_5} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_6})}>
+        <img src={img_sophiemudd_6} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_7})}>
+        <img src={img_sophiemudd_7} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_8})}>
+        <img src={img_sophiemudd_8} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_9})}>
+        <img src={img_sophiemudd_9} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_10})}>
+        <img src={img_sophiemudd_10} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_11})}>
+        <img src={img_sophiemudd_11} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_12})}>
+        <img src={img_sophiemudd_12} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_13})}>
+        <img src={img_sophiemudd_13} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_14})}>
+        <img src={img_sophiemudd_14} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_15})}>
+        <img src={img_sophiemudd_15} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_16})}>
+        <img src={img_sophiemudd_16} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_17})}>
+        <img src={img_sophiemudd_17} style={{height: '80vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiemudd_18})}>
+        <img src={img_sophiemudd_18} style={{height: '80vh'}} />
+    </div>
       </div>
     </div>
     );

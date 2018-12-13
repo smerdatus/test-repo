@@ -24,6 +24,9 @@ import img_9 from './assets/hope/videos/9.webm.png';
 import img_10 from './assets/hope/pics/1.png';
 import img_11 from './assets/hope/pics/2.jpg';
 import img_12 from './assets/hope/pics/3.jpg';
+import img_13 from './assets/hope/pics/4.jpg';
+import img_14 from './assets/hope/pics/5.jpg';
+import img_15 from './assets/hope/pics/6.jpg';
 
 export default class Hope extends Component {
   constructor(props) {
@@ -101,6 +104,15 @@ export default class Hope extends Component {
           </div>
           <div style={{padding: '1vh' }}>
             <img src={img_12} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_13} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_14} style={{height: '80vh'}} />
+          </div>
+          <div style={{padding: '1vh' }}>
+            <img src={img_15} style={{height: '80vh'}} />
           </div>
       </div>
     </div>
