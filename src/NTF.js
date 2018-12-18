@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Player } from 'video-react';
 import './App.css';
+import video_00 from './assets/ntf/videos/00bfsqueeze.mp4';
+import img_00 from './assets/ntf/videos/00bfsqueeze.mp4.png';
 import video_0 from './assets/ntf/videos/01 jump out of bikini.mp4';
 import img_0 from './assets/ntf/videos/01 jump out of bikini.mp4.png';
 import video_1 from './assets/ntf/videos/02 pigtail.mp4';
@@ -134,6 +136,9 @@ export default class NTF extends Component {
         <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
         <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_0})}>
             <img src={img_0} style={{height: '20vh'}} />
+          </div>
+          <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_00})}>
+            <img src={img_00} style={{height: '20vh'}} />
           </div>
           <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_1})}>
             <img src={img_1} style={{height: '20vh'}} />
